@@ -14,6 +14,7 @@ namespace t6
 
             double lc = 1E-2;
 
+
             geo.AddPoint(0, 0, 0, lc, 1);
             geo.AddPoint(0.1, 0, 0, lc, 2);
             geo.AddPoint(0.1, 0.3, 0, lc, 3);
