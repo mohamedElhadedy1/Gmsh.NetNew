@@ -11,6 +11,7 @@ namespace t18
         {
             Gmsh.Initialize();
             Gmsh.Option.SetNumber("General.Terminal", 1);
+             //  create from msh  cad and convert to c# dynamo 
 
             Gmsh.Model.Add("t18");
 
